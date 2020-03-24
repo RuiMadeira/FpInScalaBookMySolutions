@@ -9,7 +9,7 @@ class exercise_3_13 {
     case Cons(h,t) => foldLeft(t, f(z,h))(f)
   }
 
-  def reverse[A](l: List[A]): List[A] = foldLeft(l, Nil)((a, b) => Cons(b, a))
+  def reverse[A](l: List[A]): List[A] = foldLeft(l, Nil: List[A])((a, b) => Cons(b, a))
 
   // Using reverse
   def foldLeftUsingFoldRight[A, B](l: List[A], z: B)(f: (B, A) => B): B = foldRight(reverse(l), z)((a, b) => f(b, a))
