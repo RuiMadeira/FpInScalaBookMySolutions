@@ -36,6 +36,7 @@ object exercise_3_29 {
 
   def maximumViaFold(t: Tree[Int]): Int = foldBookProposed(t)(a => a)(_ max _)
 
+  // [?] Why here in the g function we can't simply write 1 + (_ + _) ?
   def depthViaFold[A](t: Tree[A]): Int = foldBookProposed(t)(a => 0)((d1,d2) => 1 + (d1 max d2))
 
   // Book answer also has an important note here about the necessity of the type annotation in the first function argument.
