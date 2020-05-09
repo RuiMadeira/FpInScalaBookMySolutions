@@ -19,6 +19,7 @@ object exercise_3_29 {
   // If my solution is correct then for the analogy part between this and list left and right folds:
   // It seems it is quite more verbose since we have to handle each case. So it almost seems not worthy doing the fold.
 
+
   // I feel I was quite wrong in this one, since my solution is not so great which is also reflected in my analogy comment.
   // My function was also incomplete without me realizing it, and when I tried to complete it I saw an error in types and
   // so that should give the queue that it was incorrect and that two function arguments where needed.
