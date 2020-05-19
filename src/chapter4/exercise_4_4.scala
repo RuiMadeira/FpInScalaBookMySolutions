@@ -1,7 +1,7 @@
 package chapter4;
 
 class exercise_4_4 {
-    def sequence[A](a: List[Option[A]]): Option[List[A] =
+    def sequence[A](a: List[Option[A]]): Option[List[A]] =
         a match {
             // Not correct. The cons(hhead... could have a none inside.
             case cons(head, tail) => head.flatmap(hhead => cons(hhead, sequence(tail)))
@@ -25,5 +25,3 @@ class exercise_4_4 {
     def sequence_1BookProposed[A](a: List[Option[A]]): Option[List[A]] =
         a.foldRight[Option[List[A]]](Some(Nil))((x,y) => map2(x,y)(_ :: _))
 }
-
-
