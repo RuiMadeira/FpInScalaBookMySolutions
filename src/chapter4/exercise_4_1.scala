@@ -1,11 +1,7 @@
 package chapter4
 
 class exercise_4_1 {
-  sealed trait Option[+A]
-  case class Some[+A](get: A) extends Option[A]
-  case object None extends Option[Nothing]
-
-  trait Option[+A] {
+  sealed trait Option[+A] {
     def map[B](f: A => B): Option[B] = this match {
       case Some(a) => Some(f(a))
       case None => None
@@ -29,7 +25,7 @@ class exercise_4_1 {
 
     // Better in book and was wrong
     def filter(f: A => Boolean): Option[A] = this match {
-      case Some(a) => if(f(a)) Some(a) else None
+      case Some(a) => if (f(a)) Some(a) else None
       case None => None
     }
 
@@ -46,13 +42,13 @@ class exercise_4_1 {
       case Some(a) => Some(f(a))
     }
 
-    def getOrElseBookProposed[B>:A](default: => B): B = this match {
+    def getOrElseBookProposed[B >: A](default: => B): B = this match {
       case None => default
       case Some(a) => a
     }
 
     def flatMapBookProposed[B](f: A => Option[B]): Option[B] =
-      map(f) getOrElse None
+      map(f) getOrElseBookProposed None
 
     /*
     Of course, we can also implement `flatMap` with explicit pattern matching.
@@ -62,13 +58,13 @@ class exercise_4_1 {
       case Some(a) => f(a)
     }
 
-    def orElse[B>:A](ob: => Option[B]): Option[B] =
-      this map (Some(_)) getOrElse ob
+    def orElse[B >: A](ob: => Option[B]): Option[B] =
+      this map (Some(_)) getOrElseBookProposed ob
 
     /*
     Again, we can implement this with explicit pattern matching.
     */
-    def orElse_1[B>:A](ob: => Option[B]): Option[B] = this match {
+    def orElse_1BookProposed[B >: A](ob: => Option[B]): Option[B] = this match {
       case None => ob
       case _ => this
     }
@@ -76,12 +72,16 @@ class exercise_4_1 {
     /*
     This can also be defined in terms of `flatMap`.
     */
-    def filter_1(f: A => Boolean): Option[A] =
+    def filter_1BookProposed(f: A => Boolean): Option[A] =
       flatMap(a => if (f(a)) Some(a) else None)
 
     /* Or via explicit pattern matching. */
-    def filter(f: A => Boolean): Option[A] = this match {
+    def filterBookProposed(f: A => Boolean): Option[A] = this match {
       case Some(a) if f(a) => this
       case _ => None
     }
+  }
+  case class Some[+A](get: A) extends Option[A]
+  case object None extends Option[Nothing]
+
 }

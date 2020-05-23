@@ -8,7 +8,6 @@ class exercise_4_2 {
     xs.map(x => Some(Math.pow(x - mean, 2))).flatmap(x => x.sum() / xs.size())
   }
 
-
   // I think I was quite wrong here but I had some good ideas. Still the book doesn't explain where the mean function
   // comes from and how it returns and optional, since is not in the standard library. Is it the way I defined my
   // mean function?
