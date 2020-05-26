@@ -27,7 +27,7 @@ class exercise_4_6 {
     // Then, actually solution declaration of orElse is different, using AA >: A instead of BB >: B, which I also think
     // is clearer.
     // Then I mistakenly started from my map2 instead of the books, which lead to same situation of not sure of being
-    // right. I also forgot about for comprehension which is what they use in the solution to this exercise.
+    // right. I also forgot about for-comprehension which is what they use in the solution to this exercise.
     // This makes sense and looks nice, but it's not cool since for comprehension requires definition of flatMap and
     // map, and the map we are not defining it here...
     // Apparently after improving the way this is defined to prevent Either redeclaration (and same in Option), it fixed
@@ -50,7 +50,7 @@ class exercise_4_6 {
         case Right(a) => Right(a)
       }
 
-    def map2[EE >: E, B, C](b: Either[EE, B])(f: (A, B) => C):
+    def map2BookProposed[EE >: E, B, C](b: Either[EE, B])(f: (A, B) => C):
       Either[EE, C] = for { a <- this; b1 <- b } yield f(a,b1)
   }
   case class Left[+E](value: E) extends Either[E, Nothing]

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40686439-6ec1-468e-a98a-5c8f5399d1bf" name="Default Changelist" comment="" />
+    <list default="true" id="40686439-6ec1-468e-a98a-5c8f5399d1bf" name="Default Changelist" comment="Added my solutions to 3_16, 3_17, 3_18. Corrected a parameter declaration in 3_13">
+      <change afterPath="$PROJECT_DIR$/src/chapter4/exercise_4_7.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/exercise_4_8.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/exercise_4_6.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4/exercise_4_6.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -36,9 +45,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chapter4" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="D:\Rui Nuno\IT Projects\functional-programming-in-scala-book\src" />
     </key>
   </component>
@@ -75,7 +86,100 @@
       <option name="presentableId" value="Default" />
       <updated>1581640562813</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added my solutions for exercises 3_11, 3_12, 3_13, 3_14, 3_15">
+      <created>1584303265831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584303265831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Further completed explanation in 3_15 with some of my thoughts and fixed typos on same exercise.">
+      <created>1584303914151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584303914151</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added my solutions to 3_16, 3_17, 3_18. Corrected a parameter declaration in 3_13">
+      <created>1585011621058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585011621058</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added my solutions to 3_19, 3_20, 3_21, 3_22 and 3_23">
+      <created>1585523908170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585523908170</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed my version of 3_23. Changed book version function name">
+      <created>1585524042460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585524042460</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added my solutions to 3_24, 3_25, 3_26, 3_27, 3_28, 3_29">
+      <created>1586120627778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586120627778</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added personal question in exercise_3_29">
+      <created>1586120959485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586120959485</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added my solutions to exercises 4_1, 4_2, 4_3. Started creating packages for exercises of each chapter">
+      <created>1589049191454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589049191454</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added my solutions to 4_4">
+      <created>1589496679069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589496679070</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added my solutions to 4_4 and 4_5">
+      <created>1589930609588</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589930609588</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added my solution to 4_6. Corrected form of declaration for Option type and some other issues">
+      <created>1590248183105</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590248183105</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Developed my solutions for exercises 3_11, 3_12, 3_13, 3_14, 3_15" />
+    <MESSAGE value="Added my solutions for exercises 3_11, 3_12, 3_13, 3_14, 3_15" />
+    <MESSAGE value="Further completed explanation in 3_15 with some of my thoughts and fixed typos on same exercise." />
+    <MESSAGE value="Added my solutions to 3_16, 3_17, 3_18. Corrected a parameter declaration in 3_13" />
+    <MESSAGE value="Added my solutions to 3_19, 3_20, 3_21, 3_22 and 3_23" />
+    <MESSAGE value="Fixed my version of 3_23. Changed book version function name" />
+    <MESSAGE value="Added my solutions to 3_24, 3_25, 3_26, 3_27, 3_28, 3_29" />
+    <MESSAGE value="Added personal question in exercise_3_29" />
+    <MESSAGE value="Added my solutions to exercises 4_1, 4_2, 4_3. Started creating packages for exercises of each chapter" />
+    <MESSAGE value="Added my solutions to 4_4" />
+    <MESSAGE value="Added my solutions to 4_4 and 4_5" />
+    <MESSAGE value="Added my solution to 4_6. Corrected form of declaration for Option type and some other issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added my solution to 4_6. Corrected form of declaration for Option type and some other issues" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="198" key="#Project_Structure" timestamp="1581873078477">
@@ -86,14 +190,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="295" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583970225877" />
+    <state x="622" y="-618" width="401" height="159" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1584287292051">
+      <screen x="-141" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="622" y="-618" width="401" height="159" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/-141.-1080.1920.1080/0.0.1680.1050@-141.-1080.1920.1080" timestamp="1584287292051" />
     <state x="590" y="268" key="#com.intellij.ide.util.ExportDialog" timestamp="1581873185898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="268" key="#com.intellij.ide.util.ExportDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581873185898" />
+    <state x="669" y="-633" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584287304862">
+      <screen x="-141" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="669" y="-633" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-141.-1080.1920.1080/0.0.1680.1050@-141.-1080.1920.1080" timestamp="1584287304862" />
     <state x="640" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582650689468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582650689468" />
+    <state x="395" y="136" key="CommitChangelistDialog2" timestamp="1590248182822">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="310" y="-940" key="CommitChangelistDialog2/-141.-1080.1920.1080/0.0.1680.1050@-141.-1080.1920.1080" timestamp="1589049191268" />
+    <state x="395" y="136" key="CommitChangelistDialog2/-141.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590248182822" />
+    <state x="395" y="136" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1589496678863" />
     <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1582242415651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -110,17 +228,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="304" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582242415651" />
-    <state x="461" y="182" key="SettingsEditor" timestamp="1581905250240">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="403" y="184" key="SettingsEditor" timestamp="1590425375444">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="403" y="184" key="SettingsEditor/-141.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590425375444" />
+    <state x="320" y="-891" key="SettingsEditor/-141.-1080.1920.1080/0.23.1680.1027@-141.-1080.1920.1080" timestamp="1584287087385" />
     <state x="461" y="182" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581905250240" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583970323545">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="490" y="272" key="Vcs.Push.Dialog.v2" timestamp="1590248185123">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="419" y="-800" key="Vcs.Push.Dialog.v2/-141.-1080.1920.1080/0.0.1680.1050@-141.-1080.1920.1080" timestamp="1589049195314" />
+    <state x="490" y="272" key="Vcs.Push.Dialog.v2/-141.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590248185123" />
+    <state x="490" y="272" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1589496681201" />
+    <state x="574" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1590241195289">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="515" y="-708" key="com.intellij.ide.util.TipDialog/-141.-1057.1920.1057/0.23.1680.947@-141.-1057.1920.1057" timestamp="1589038039043" />
+    <state x="515" y="-723" key="com.intellij.ide.util.TipDialog/-141.-1080.1920.1080/0.0.1680.1050@-141.-1080.1920.1080" timestamp="1589319638175" />
+    <state x="574" y="347" key="com.intellij.ide.util.TipDialog/-141.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590241195289" />
+    <state x="574" y="347" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1589492675846" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1583970323545" />
-    <state x="623" y="239" key="search.everywhere.popup" timestamp="1582651106467">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="545" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1590247701535">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="545" y="241" width="670" height="676" key="search.everywhere.popup/-141.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1590247701535" />
     <state x="623" y="239" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582651106467" />
   </component>
 </project>
